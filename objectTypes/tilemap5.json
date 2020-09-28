@@ -4,7 +4,13 @@
 	"sid": 191648189629083,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 651072721924124
+		}
+	],
 	"effectTypes": [],
 	"image": {
 		"width": 752,
@@ -14,7 +20,7 @@
 		"originalSource": "",
 		"exportFormat": "png",
 		"exportQuality": 0.8,
-		"imageSpriteId": 5204401,
+		"imageSpriteId": 7949725,
 		"useCollisionPoly": true
 	},
 	"tile-collision-polys": {}
