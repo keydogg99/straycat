@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 21002,
+	"savedWithRelease": 21800,
 	"name": "straycat",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -11,7 +11,7 @@
 			"id": "TiledBg",
 			"name": "Tiled Background",
 			"author": "Scirra",
-			"version": "r210.2",
+			"version": "r218",
 			"bundled": false
 		},
 		{
@@ -19,7 +19,7 @@
 			"id": "Text",
 			"name": "Text",
 			"author": "Scirra",
-			"version": "r210.2",
+			"version": "r218",
 			"bundled": false
 		},
 		{
@@ -27,7 +27,7 @@
 			"id": "Tilemap",
 			"name": "Tilemap",
 			"author": "Scirra",
-			"version": "r210.2",
+			"version": "r218",
 			"bundled": false
 		},
 		{
@@ -35,7 +35,7 @@
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
-			"version": "r210.2",
+			"version": "r218",
 			"bundled": false
 		},
 		{
@@ -43,7 +43,7 @@
 			"id": "Keyboard",
 			"name": "Keyboard",
 			"author": "Scirra",
-			"version": "r210.2",
+			"version": "r218",
 			"bundled": false
 		},
 		{
@@ -51,7 +51,7 @@
 			"id": "solid",
 			"name": "Solid",
 			"author": "Scirra",
-			"version": "r210.2",
+			"version": "r218",
 			"bundled": false
 		},
 		{
@@ -59,7 +59,7 @@
 			"id": "Platform",
 			"name": "Platform",
 			"author": "Scirra",
-			"version": "r210.2",
+			"version": "r218",
 			"bundled": false
 		}
 	],
@@ -83,7 +83,18 @@
 			"Tilemap5",
 			"Tilemap6",
 			"Sprite",
-			"Keyboard"
+			"Keyboard",
+			"Tilemap7",
+			"Tilemap8",
+			"Tilemap9",
+			"Tilemap10",
+			"Tilemap11",
+			"Tilemap12",
+			"Tilemap13",
+			"Tilemap14",
+			"Tilemap15",
+			"Sprite2",
+			"Sprite3"
 		],
 		"subfolders": []
 	},
