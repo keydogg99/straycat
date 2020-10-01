@@ -32,16 +32,16 @@
 		},
 		{
 			"type": "plugin",
-			"id": "Sprite",
-			"name": "Sprite",
+			"id": "Keyboard",
+			"name": "Keyboard",
 			"author": "Scirra",
 			"version": "r218",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
-			"id": "Keyboard",
-			"name": "Keyboard",
+			"id": "Sprite",
+			"name": "Sprite",
 			"author": "Scirra",
 			"version": "r218",
 			"bundled": false
@@ -68,33 +68,10 @@
 		"items": [
 			"TiledBackground",
 			"Text",
-			"TiledBackground2",
-			"TiledBackground3",
-			"TiledBackground4",
-			"TiledBackground5",
-			"TiledBackground6",
-			"TiledBackground7",
-			"TiledBackground8",
 			"Tilemap",
-			"Tilemap2",
-			"TiledBackground9",
-			"Tilemap3",
-			"Tilemap4",
-			"Tilemap5",
-			"Tilemap6",
-			"Sprite",
 			"Keyboard",
-			"Tilemap7",
-			"Tilemap8",
-			"Tilemap9",
-			"Tilemap10",
-			"Tilemap11",
-			"Tilemap12",
-			"Tilemap13",
-			"Tilemap14",
-			"Tilemap15",
-			"Sprite2",
-			"Sprite3"
+			"TiledBackground2",
+			"kitty"
 		],
 		"subfolders": []
 	},
@@ -107,24 +84,14 @@
 	"layouts": {
 		"items": [
 			"Title Screen Layout",
-			"level 1",
-			"level 2",
-			"level 3",
-			"level 4",
-			"levle 5",
-			"level 6"
+			"level 1"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
 			"title screen event sheet",
-			"Level 1 event sheet",
-			"Level 2 event sheet",
-			"Level 3 event sheet",
-			"Level 4 event sheet",
-			"Level 5 event sheet",
-			"Level 6 event sheet"
+			"Level 1 event sheet"
 		],
 		"subfolders": []
 	},

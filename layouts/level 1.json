@@ -18,14 +18,47 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 8,
+					"uid": 4,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": -4,
-						"y": -50,
-						"width": 957,
-						"height": 540,
+						"x": 854,
+						"y": 0,
+						"width": 854,
+						"height": 480,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TiledBackground2",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 5,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 0,
+						"y": 0,
+						"width": 854,
+						"height": 480,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -52,7 +85,7 @@
 						"tile-y-drawing-offset": 0,
 						"drawing-mode": "top-to-right"
 					},
-					"uid": 15,
+					"uid": 7,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -64,11 +97,11 @@
 					},
 					"ownData": {
 						"tilemapData": {
-							"width": 106,
+							"width": 71,
 							"height": 60,
-							"max-width": 130,
+							"max-width": 166,
 							"max-height": 76,
-							"data": "29x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,3x64,73x0,2x64,74x0,3x64,73x0,3x64,73x0,3x64,73x0,3x64,73x0,3x64,73x0,3x64,73x0,2x64,74x0,3x64,73x0,2x64,0,64,72x0,2x64,0,64,72x0,2x64,0,64,72x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,5365x0"
+							"data": "29x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,3x64,73x0,2x64,74x0,3x64,73x0,3x64,73x0,3x64,73x0,3x64,73x0,3x64,73x0,3x64,73x0,2x64,74x0,3x64,73x0,2x64,0,64,72x0,2x64,0,64,72x0,2x64,0,64,72x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,8101x0"
 						},
 						"tile-width": 16,
 						"tile-height": 16,
@@ -78,9 +111,9 @@
 						"tile-y-spacing": 0
 					},
 					"world": {
-						"x": -6,
-						"y": 2,
-						"width": 1708,
+						"x": -4,
+						"y": -16,
+						"width": 1147,
 						"height": 960,
 						"originX": 0,
 						"originY": 0,
@@ -94,7 +127,62 @@
 					}
 				},
 				{
-					"type": "Sprite",
+					"type": "Tilemap",
+					"properties": {
+						"initially-visible": true,
+						"tile-width": 16,
+						"tile-height": 16,
+						"tile-x-offset": 0,
+						"tile-y-offset": 0,
+						"tile-x-spacing": 0,
+						"tile-y-spacing": 0,
+						"tile-x-drawing-offset": 0,
+						"tile-y-drawing-offset": 0,
+						"drawing-mode": "top-to-right"
+					},
+					"uid": 8,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"ownData": {
+						"tilemapData": {
+							"width": 71,
+							"height": 60,
+							"max-width": 166,
+							"max-height": 76,
+							"data": "29x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,3x64,73x0,2x64,74x0,3x64,73x0,3x64,73x0,3x64,73x0,3x64,73x0,3x64,73x0,3x64,73x0,2x64,74x0,3x64,73x0,2x64,0,64,72x0,2x64,0,64,72x0,2x64,0,64,72x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,74x0,2x64,8101x0"
+						},
+						"tile-width": 16,
+						"tile-height": 16,
+						"tile-x-offset": 0,
+						"tile-y-offset": 0,
+						"tile-x-spacing": 0,
+						"tile-y-spacing": 0
+					},
+					"world": {
+						"x": 862,
+						"y": -13,
+						"width": 1147,
+						"height": 960,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "kitty",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -102,7 +190,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 5,
+					"uid": 9,
 					"instanceVariables": {},
 					"behaviors": {
 						"Platform": {
@@ -121,10 +209,10 @@
 						}
 					},
 					"world": {
-						"x": 39,
-						"y": 435,
-						"width": 46,
-						"height": 58,
+						"x": 50,
+						"y": 412,
+						"width": 51,
+						"height": 64,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -166,8 +254,8 @@
 	"sid": 195964061110918,
 	"nonworld-instances": [],
 	"effectTypes": [],
-	"width": 1708,
-	"height": 960,
-	"unboundedScrolling": false,
+	"width": 854,
+	"height": 480,
+	"unboundedScrolling": true,
 	"eventSheet": "Level 1 event sheet"
 }

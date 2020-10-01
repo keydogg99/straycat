@@ -1,14 +1,14 @@
 {
-	"name": "Sprite",
+	"name": "kitty",
 	"plugin-id": "Sprite",
-	"sid": 242827633221342,
+	"sid": 139125092140479,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Platform",
 			"name": "Platform",
-			"sid": 351653661752553
+			"sid": 773188597256811
 		}
 	],
 	"effectTypes": [],
@@ -24,7 +24,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9685163,
+						"imageSpriteId": 1091218,
 						"useCollisionPoly": true,
 						"imagePoints": [
 							{
@@ -36,7 +36,7 @@
 						"duration": 1
 					}
 				],
-				"sid": 169486282531340,
+				"sid": 475819641585366,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

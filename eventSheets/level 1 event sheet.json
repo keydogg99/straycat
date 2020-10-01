@@ -1,5 +1,62 @@
 {
 	"name": "Level 1 event sheet",
-	"events": [],
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "bg_speed2",
+			"type": "number",
+			"initialValue": "250",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 843102201658823
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 521169291835626
+				}
+			],
+			"actions": [
+				{
+					"id": "set-x",
+					"objectClass": "TiledBackground2",
+					"sid": 450652326521380,
+					"parameters": {
+						"x": "TiledBackground2.X - bg_speed2 * dt"
+					}
+				}
+			],
+			"sid": 270539586192069
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-x",
+					"objectClass": "TiledBackground2",
+					"sid": 939805839415444,
+					"parameters": {
+						"comparison": 3,
+						"x-co-ordinate": "-854"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-x",
+					"objectClass": "TiledBackground2",
+					"sid": 557627327458844,
+					"parameters": {
+						"x": "TiledBackground2.X + 1708"
+					}
+				}
+			],
+			"sid": 104548082804738
+		}
+	],
 	"sid": 462337385455810
 }
