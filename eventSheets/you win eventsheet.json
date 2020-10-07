@@ -68,6 +68,32 @@
 				}
 			],
 			"sid": 802634020960466
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 809843335969263,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "exitToMenu"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 701482216655542,
+					"parameters": {
+						"layout": "introscreen"
+					}
+				}
+			],
+			"sid": 474092838825770
 		}
 	],
 	"sid": 837885266878959

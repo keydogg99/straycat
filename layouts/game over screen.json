@@ -66,8 +66,8 @@
 					"world": {
 						"x": 248,
 						"y": 86,
-						"width": 769,
-						"height": 481,
+						"width": 609,
+						"height": 139,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -83,7 +83,7 @@
 				{
 					"type": "tryAgain",
 					"properties": {
-						"text": "yikes you pressed the wrong key click here to retry ",
+						"text": "Yikes you pressed the wrong key ",
 						"enable-bbcode": true,
 						"font": "Book Antiqua",
 						"size": 32,
@@ -106,10 +106,194 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 329,
-						"y": 278,
-						"width": 432,
-						"height": 222,
+						"x": 340,
+						"y": 234,
+						"width": 422,
+						"height": 112,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite5",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 22,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 551,
+						"y": 560,
+						"width": 225,
+						"height": 57,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite5",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 33,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 558,
+						"y": 424,
+						"width": 321,
+						"height": 57,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "exitToMenu",
+					"properties": {
+						"text": "Exit to menu",
+						"enable-bbcode": true,
+						"font": "Book Antiqua",
+						"size": 25,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 35,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 448,
+						"y": 536,
+						"width": 209,
+						"height": 57,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OR",
+					"properties": {
+						"text": "OR",
+						"enable-bbcode": true,
+						"font": "Book Antiqua",
+						"size": 33,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0.8274509803921568,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 36,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 518,
+						"y": 465,
+						"width": 72,
+						"height": 60,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "clickHereToReplay",
+					"properties": {
+						"text": "click here to retry",
+						"enable-bbcode": true,
+						"font": "Baskerville",
+						"size": 30,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 37,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 402,
+						"y": 397,
+						"width": 351,
+						"height": 62,
 						"originX": 0,
 						"originY": 0,
 						"color": [

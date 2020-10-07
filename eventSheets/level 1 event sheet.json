@@ -144,9 +144,13 @@
 			],
 			"actions": [
 				{
-					"id": "destroy",
+					"id": "simulate-control",
 					"objectClass": "kitty",
-					"sid": 999311795530395
+					"sid": 959801069809162,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "jump"
+					}
 				}
 			],
 			"sid": 472586629431785

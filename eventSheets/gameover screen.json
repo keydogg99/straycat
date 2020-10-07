@@ -37,11 +37,11 @@
 				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
-					"sid": 609251692043687,
+					"sid": 632845171512446,
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
-						"object-clicked": "tryAgain"
+						"object-clicked": "clickHereToReplay"
 					}
 				}
 			],
@@ -56,6 +56,32 @@
 				}
 			],
 			"sid": 959790214429647
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 880263967562985,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "exitToMenu"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 402018196406706,
+					"parameters": {
+						"layout": "introscreen"
+					}
+				}
+			],
+			"sid": 238499858232898
 		}
 	],
 	"sid": 909485904572839

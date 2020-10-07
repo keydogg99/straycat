@@ -80,14 +80,6 @@
 		},
 		{
 			"type": "behavior",
-			"id": "scrollto",
-			"name": "Scroll To",
-			"author": "Scirra",
-			"version": "r218",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
 			"id": "solid",
 			"name": "Solid",
 			"author": "Scirra",
@@ -128,7 +120,8 @@
 			"exitToMenu",
 			"TiledBackground6",
 			"Sprite6",
-			"instructions"
+			"instructions",
+			"OR"
 		],
 		"subfolders": []
 	},
