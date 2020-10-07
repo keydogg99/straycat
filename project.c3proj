@@ -55,6 +55,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"version": "r218",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "Platform",
 			"name": "Platform",
@@ -91,7 +99,9 @@
 			"Audio",
 			"Sprite",
 			"Sprite2",
-			"Text6"
+			"Text6",
+			"Text7",
+			"Mouse"
 		],
 		"subfolders": []
 	},
