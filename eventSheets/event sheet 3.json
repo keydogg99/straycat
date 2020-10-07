@@ -1,5 +1,30 @@
 {
 	"name": "Event sheet 3",
-	"events": [],
-	"sid": 108506634078008
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 348618409935051
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 218658689695608,
+					"parameters": {
+						"audio-file": "Music Box Game Over III",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 297584768553182
+		}
+	],
+	"sid": 909485904572839
 }

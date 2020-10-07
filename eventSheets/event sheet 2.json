@@ -1,5 +1,30 @@
 {
 	"name": "Event sheet 2",
-	"events": [],
-	"sid": 462337385455810
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 819838623830191
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 367941692291954,
+					"parameters": {
+						"audio-file": "winfretless",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 380935257497291
+		}
+	],
+	"sid": 837885266878959
 }
