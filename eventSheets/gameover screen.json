@@ -1,0 +1,62 @@
+{
+	"name": "gameover screen",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 348618409935051
+				}
+			],
+			"actions": [],
+			"sid": 297584768553182
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-end-of-layout",
+					"objectClass": "System",
+					"sid": 763107637803457
+				}
+			],
+			"actions": [
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 699583873205840
+				}
+			],
+			"sid": 545963246624979
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 609251692043687,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "tryAgain"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 480521175899774,
+					"parameters": {
+						"layout": "level 1"
+					}
+				}
+			],
+			"sid": 959790214429647
+		}
+	],
+	"sid": 909485904572839
+}

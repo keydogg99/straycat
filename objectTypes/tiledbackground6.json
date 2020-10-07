@@ -1,20 +1,20 @@
 {
-	"name": "TiledBackground4",
+	"name": "TiledBackground6",
 	"plugin-id": "TiledBg",
-	"sid": 644754413876345,
+	"sid": 236679619254274,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
 	"effectTypes": [],
 	"image": {
-		"width": 480,
-		"height": 270,
+		"width": 250,
+		"height": 250,
 		"originX": 0.5,
 		"originY": 0.5,
-		"originalSource": "C:\\Users\\Owner\\Desktop\\straycat\\straycat\\images\\tiledbackground7.png",
+		"originalSource": "C:\\Users\\Owner\\Desktop\\straycat\\straycat\\images\\tiledbackground.png",
 		"exportFormat": "png",
 		"exportQuality": 0.8,
-		"imageSpriteId": 1022954,
+		"imageSpriteId": 7180825,
 		"useCollisionPoly": true
 	}
 }

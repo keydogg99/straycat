@@ -1,7 +1,7 @@
 {
-	"name": "Sprite3",
+	"name": "fish",
 	"plugin-id": "Sprite",
-	"sid": 186276777953047,
+	"sid": 439858672939763,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -18,14 +18,26 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3744414,
+						"imageSpriteId": 8653810,
 						"useCollisionPoly": true,
-						"duration": 1
+						"duration": 2
+					},
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3767106,
+						"useCollisionPoly": true,
+						"duration": 2
 					}
 				],
-				"sid": 149051854362967,
+				"sid": 154324420109807,
 				"name": "Animation 1",
-				"isLooping": false,
+				"isLooping": true,
 				"isPingPong": false,
 				"repeatCount": 1,
 				"repeatTo": 0,

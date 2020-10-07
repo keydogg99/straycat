@@ -5,57 +5,11 @@
 			"eventType": "variable",
 			"name": "bg_speed2",
 			"type": "number",
-			"initialValue": "250",
+			"initialValue": "200",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
 			"sid": 843102201658823
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "every-tick",
-					"objectClass": "System",
-					"sid": 521169291835626
-				}
-			],
-			"actions": [
-				{
-					"id": "set-x",
-					"objectClass": "TiledBackground2",
-					"sid": 450652326521380,
-					"parameters": {
-						"x": "TiledBackground2.X - bg_speed2 * dt"
-					}
-				}
-			],
-			"sid": 270539586192069
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "compare-x",
-					"objectClass": "TiledBackground2",
-					"sid": 939805839415444,
-					"parameters": {
-						"comparison": 3,
-						"x-co-ordinate": "-854"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-x",
-					"objectClass": "TiledBackground2",
-					"sid": 557627327458844,
-					"parameters": {
-						"x": "TiledBackground2.X + 1708"
-					}
-				}
-			],
-			"sid": 104548082804738
 		},
 		{
 			"eventType": "block",
@@ -372,6 +326,93 @@
 				}
 			],
 			"sid": 219423625265074
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "kitty",
+					"sid": 836731483380720,
+					"parameters": {
+						"object": "fish"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 360577525831655,
+					"parameters": {
+						"layout": "you winscreen"
+					}
+				}
+			],
+			"sid": 999417893911830
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-destroyed",
+					"objectClass": "kitty",
+					"sid": 828738009201589
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 971294474741990,
+					"parameters": {
+						"layout": "game over screen"
+					}
+				}
+			],
+			"sid": 103786467240634
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-end-of-layout",
+					"objectClass": "System",
+					"sid": 736127321696864
+				}
+			],
+			"actions": [
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 452001971579478
+				}
+			],
+			"sid": 683430495811373
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "kitty",
+					"sid": 328408542874790,
+					"parameters": {
+						"object": "fish"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 683696063624100,
+					"parameters": {
+						"layout": "you winscreen"
+					}
+				}
+			],
+			"sid": 241667754973856
 		}
 	],
 	"sid": 462337385455810

@@ -1,117 +1,29 @@
 {
-	"name": "Layout 1",
+	"name": "introscreen",
 	"layers": [
 		{
 			"name": "Layer 0",
 			"overriden": 0,
 			"instances": [
 				{
-					"type": "TiledBackground3",
+					"type": "Sprite6",
 					"properties": {
 						"initially-visible": true,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
 					},
 					"uid": 12,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": -2,
-						"y": -189,
-						"width": 966,
-						"height": 673,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Text",
-					"properties": {
-						"text": "Kitty in the City                                                   \n    ",
-						"enable-bbcode": true,
-						"font": "Gentium",
-						"size": 50,
-						"line-height": 1,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0.8784313725490196,
-							0.8549019607843137,
-							0.24313725490196078,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 13,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 150,
-						"y": 65,
-						"width": 510,
-						"height": 113,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Text7",
-					"properties": {
-						"text": " By Keyshawn, Tina, Alfred                           ",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 24,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0.8705882352941177,
-							0.8823529411764706,
-							0.21568627450980393,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 21,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": -4,
-						"y": 365,
-						"width": 407,
-						"height": 52,
-						"originX": 0,
-						"originY": 0,
+						"x": 568,
+						"y": 320,
+						"width": 1136,
+						"height": 640,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -134,14 +46,128 @@
 						"checked": false,
 						"id": ""
 					},
-					"uid": 22,
+					"uid": 32,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 281,
-						"y": 221,
-						"width": 180,
-						"height": 31,
+						"x": 461,
+						"y": 304,
+						"width": 188,
+						"height": 36,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "KittyCity",
+					"properties": {
+						"text": "KittyCity                                                   \n    ",
+						"enable-bbcode": true,
+						"font": "Gentium",
+						"size": 50,
+						"line-height": 1,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0.8784313725490196,
+							0.8549019607843137,
+							0.24313725490196078,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 6,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 313,
+						"y": 149,
+						"width": 510,
+						"height": 113,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "names",
+					"properties": {
+						"text": " By Keyshawn, Tina, Alfred                           ",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 24,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0.8705882352941177,
+							0.8823529411764706,
+							0.21568627450980393,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 13,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 358,
+						"y": 466,
+						"width": 407,
+						"height": 52,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "instructions",
+					"properties": {
+						"type": "button",
+						"text": "instructions",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": ""
+					},
+					"uid": 21,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 487,
+						"y": 385,
+						"width": 149,
+						"height": 34,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -184,5 +210,5 @@
 	"width": 1708,
 	"height": 960,
 	"unboundedScrolling": false,
-	"eventSheet": "Event sheet 1"
+	"eventSheet": "intro screen eventsheet"
 }

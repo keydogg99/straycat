@@ -1,12 +1,12 @@
 {
-	"name": "Layout 2",
+	"name": "game over screen",
 	"layers": [
 		{
 			"name": "Layer 0",
 			"overriden": 0,
 			"instances": [
 				{
-					"type": "TiledBackground4",
+					"type": "TiledBackground5",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -18,14 +18,14 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 14,
+					"uid": 15,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": -11,
-						"y": -7,
-						"width": 879,
-						"height": 496,
+						"x": 0,
+						"y": 0,
+						"width": 1136,
+						"height": 640,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -39,12 +39,12 @@
 					}
 				},
 				{
-					"type": "Text3",
+					"type": "Text4",
 					"properties": {
-						"text": "You Won! Congrats!",
+						"text": "Game Over ",
 						"enable-bbcode": true,
-						"font": "Baskerville",
-						"size": 66,
+						"font": "Book Antiqua",
+						"size": 86,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
@@ -60,14 +60,14 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 16,
+					"uid": 17,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 47,
-						"y": 60,
-						"width": 749,
-						"height": 147,
+						"x": 248,
+						"y": 86,
+						"width": 769,
+						"height": 481,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -81,35 +81,35 @@
 					}
 				},
 				{
-					"type": "Text6",
+					"type": "tryAgain",
 					"properties": {
-						"text": "Replay ?",
+						"text": "yikes you pressed the wrong key click here to retry ",
 						"enable-bbcode": true,
-						"font": "Baskerville",
-						"size": 66,
+						"font": "Book Antiqua",
+						"size": 32,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
 						"color": [
-							0.9568627450980393,
+							0.8274509803921568,
 							0.043137254901960784,
 							0.043137254901960784,
 							1
 						],
-						"horizontal-alignment": "left",
+						"horizontal-alignment": "center",
 						"vertical-alignment": "top",
 						"wrapping": "word",
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 8,
+					"uid": 18,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 246,
-						"y": 238,
-						"width": 317,
-						"height": 173,
+						"x": 329,
+						"y": 278,
+						"width": 432,
+						"height": 222,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -123,7 +123,7 @@
 					}
 				}
 			],
-			"sid": 566248857212665,
+			"sid": 155056914091598,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"color": [
@@ -148,11 +148,11 @@
 			"global": false
 		}
 	],
-	"sid": 146496430120647,
+	"sid": 191764243751522,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 1708,
 	"height": 960,
 	"unboundedScrolling": false,
-	"eventSheet": "Event sheet 2"
+	"eventSheet": "gameover screen"
 }

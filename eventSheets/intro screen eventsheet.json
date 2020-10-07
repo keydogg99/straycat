@@ -1,0 +1,69 @@
+{
+	"name": "intro screen eventsheet",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 864439108106772
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 339942763865637,
+					"parameters": {
+						"audio-file": "oga_Potential",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 277285060470213
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "StartButton",
+					"sid": 267976818791732
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 130198603419630,
+					"parameters": {
+						"layout": "level 1"
+					}
+				}
+			],
+			"sid": 852900121977520
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-end-of-layout",
+					"objectClass": "System",
+					"sid": 717479787307122
+				}
+			],
+			"actions": [
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 838191731547083
+				}
+			],
+			"sid": 442484127636432
+		}
+	],
+	"sid": 228505806199097
+}

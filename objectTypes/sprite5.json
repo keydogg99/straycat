@@ -1,7 +1,7 @@
 {
-	"name": "Sprite3",
+	"name": "Sprite5",
 	"plugin-id": "Sprite",
-	"sid": 186276777953047,
+	"sid": 527160754297760,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -18,12 +18,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3744414,
+						"imageSpriteId": 3168328,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 149051854362967,
+				"sid": 317722506565203,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
