@@ -1,0 +1,57 @@
+{
+	"name": "Sprite8",
+	"plugin-id": "Sprite",
+	"sid": 742169729881794,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 800,
+						"height": 500,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\Owner\\Desktop\\straycat\\straycat\\images\\sprite6-animation 1-000.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7790588,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.99875,
+								0,
+								0.99875,
+								0.5,
+								0.99875,
+								0.998,
+								0.5,
+								0.998,
+								0,
+								0.998,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 668887933561093,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

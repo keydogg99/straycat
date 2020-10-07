@@ -1,0 +1,58 @@
+{
+	"name": "instruction event sheet",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 764372386518833,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "backToMenu"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 496975382120890,
+					"parameters": {
+						"layout": "introscreen"
+					}
+				}
+			],
+			"sid": 834329849680251
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 922505923097672,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "playGame"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 127582999178748,
+					"parameters": {
+						"layout": "level 1"
+					}
+				}
+			],
+			"sid": 607768743765618
+		}
+	],
+	"sid": 135994957060365
+}
