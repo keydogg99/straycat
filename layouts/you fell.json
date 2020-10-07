@@ -1,33 +1,29 @@
 {
-	"name": "game over screen",
+	"name": "you fell",
 	"layers": [
 		{
 			"name": "Layer 0",
 			"overriden": 0,
 			"instances": [
 				{
-					"type": "TiledBackground5",
+					"type": "Sprite7",
 					"properties": {
 						"initially-visible": true,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
 					},
-					"uid": 15,
+					"uid": 11,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 0,
-						"y": 0,
+						"x": 568,
+						"y": 320,
 						"width": 1136,
 						"height": 640,
-						"originX": 0,
-						"originY": 0,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -60,12 +56,12 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 17,
+					"uid": 26,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 248,
-						"y": 86,
+						"x": 256,
+						"y": 85,
 						"width": 609,
 						"height": 139,
 						"originX": 0,
@@ -83,7 +79,7 @@
 				{
 					"type": "tryAgain",
 					"properties": {
-						"text": "Yikes you pressed the wrong key ",
+						"text": "On no the kitty fell",
 						"enable-bbcode": true,
 						"font": "Book Antiqua",
 						"size": 32,
@@ -102,12 +98,12 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 18,
+					"uid": 27,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 340,
-						"y": 234,
+						"x": 342,
+						"y": 271,
 						"width": 422,
 						"height": 112,
 						"originX": 0,
@@ -131,12 +127,12 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 22,
+					"uid": 28,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 551,
-						"y": 560,
+						"x": 552,
+						"y": 535,
 						"width": 225,
 						"height": 57,
 						"originX": 0.5,
@@ -160,13 +156,13 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 33,
+					"uid": 38,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 558,
-						"y": 424,
-						"width": 321,
+						"x": 557,
+						"y": 423,
+						"width": 351,
 						"height": 57,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -186,7 +182,7 @@
 						"text": "Exit to menu",
 						"enable-bbcode": true,
 						"font": "Book Antiqua",
-						"size": 25,
+						"size": 26,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
@@ -202,14 +198,56 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 35,
+					"uid": 39,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 448,
-						"y": 536,
+						"x": 456,
+						"y": 509,
 						"width": 209,
 						"height": 57,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "clickHereToReplay",
+					"properties": {
+						"text": "click here to replay",
+						"enable-bbcode": true,
+						"font": "Baskerville",
+						"size": 34,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 40,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 382,
+						"y": 392,
+						"width": 353,
+						"height": 62,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -244,12 +282,12 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 36,
+					"uid": 41,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 518,
-						"y": 465,
+						"x": 523,
+						"y": 454,
 						"width": 72,
 						"height": 60,
 						"originX": 0,
@@ -263,51 +301,9 @@
 						"angle": 0,
 						"zElevation": 0
 					}
-				},
-				{
-					"type": "clickHereToReplay",
-					"properties": {
-						"text": "click here to retry",
-						"enable-bbcode": true,
-						"font": "Baskerville",
-						"size": 30,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 37,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 402,
-						"y": 397,
-						"width": 351,
-						"height": 62,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
 				}
 			],
-			"sid": 155056914091598,
+			"sid": 416354498419534,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"color": [
@@ -332,11 +328,11 @@
 			"global": false
 		}
 	],
-	"sid": 191764243751522,
+	"sid": 676309421758331,
 	"nonworld-instances": [],
 	"effectTypes": [],
-	"width": 1708,
-	"height": 960,
+	"width": 2272,
+	"height": 1280,
 	"unboundedScrolling": false,
-	"eventSheet": "gameover screen"
+	"eventSheet": "you fell event sheet"
 }

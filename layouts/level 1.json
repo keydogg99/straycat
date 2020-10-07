@@ -6,7 +6,7 @@
 			"overriden": 0,
 			"instances": [
 				{
-					"type": "TiledBackground2",
+					"type": "movingBG",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -39,7 +39,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground2",
+					"type": "movingBG",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -171,9 +171,9 @@
 						}
 					},
 					"world": {
-						"x": 854,
+						"x": 93.5,
 						"y": 628,
-						"width": 1714,
+						"width": 193,
 						"height": 31,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -200,10 +200,75 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1895,
-						"y": 597,
-						"width": 250,
-						"height": 250,
+						"x": 1074.5,
+						"y": 588.5,
+						"width": 245,
+						"height": 237,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 2,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 342,
+						"y": 539,
+						"width": 193,
+						"height": 31,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "death",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 10,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1294,
+						"y": 904,
+						"width": 3589,
+						"height": 339,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

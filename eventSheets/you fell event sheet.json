@@ -1,0 +1,58 @@
+{
+	"name": "you fell event sheet",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 364298533316467,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "clickHereToReplay"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 518313106028885,
+					"parameters": {
+						"layout": "level 1"
+					}
+				}
+			],
+			"sid": 664871091548055
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 260036482212256,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "exitToMenu"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 893035013492090,
+					"parameters": {
+						"layout": "introscreen"
+					}
+				}
+			],
+			"sid": 285188875201126
+		}
+	],
+	"sid": 276347352038580
+}

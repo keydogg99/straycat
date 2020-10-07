@@ -92,16 +92,15 @@
 		"items": [
 			"TiledBackground",
 			"Keyboard",
-			"TiledBackground2",
+			"movingBG",
 			"kitty",
 			"StartButton",
 			"Text2",
-			"TiledBackground3",
 			"KittyCity",
 			"TiledBackground4",
 			"TiledBackground5",
 			"Congrats",
-			"Text4",
+			"gameOver",
 			"tryAgain",
 			"Audio",
 			"Sprite",
@@ -118,10 +117,11 @@
 			"Text6",
 			"Sprite5",
 			"exitToMenu",
-			"TiledBackground6",
 			"Sprite6",
 			"instructions",
-			"OR"
+			"OR",
+			"death",
+			"Sprite7"
 		],
 		"subfolders": []
 	},
@@ -136,7 +136,9 @@
 			"level 1",
 			"introscreen",
 			"you winscreen",
-			"game over screen"
+			"game over screen",
+			"you fell",
+			"instructins"
 		],
 		"subfolders": []
 	},
@@ -145,7 +147,9 @@
 			"Level 1 event sheet",
 			"intro screen eventsheet",
 			"you win eventsheet",
-			"gameover screen"
+			"gameover screen",
+			"you fell event sheet",
+			"Event sheet 1"
 		],
 		"subfolders": []
 	},

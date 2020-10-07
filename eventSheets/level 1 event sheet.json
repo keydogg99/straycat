@@ -417,6 +417,76 @@
 				}
 			],
 			"sid": 241667754973856
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "kitty",
+					"sid": 861044902375056,
+					"parameters": {
+						"object": "death"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 400655911214642,
+					"parameters": {
+						"layout": "you fell"
+					}
+				}
+			],
+			"sid": 668114679548991
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 131172596951102
+				}
+			],
+			"actions": [
+				{
+					"id": "set-x",
+					"objectClass": "movingBG",
+					"sid": 608889437258445,
+					"parameters": {
+						"x": "movingBG.X-bg_speed2* dt"
+					}
+				}
+			],
+			"sid": 624423983822740
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-x",
+					"objectClass": "movingBG",
+					"sid": 424395828793174,
+					"parameters": {
+						"comparison": 3,
+						"x-co-ordinate": "-1136"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-x",
+					"objectClass": "movingBG",
+					"sid": 559742691647677,
+					"parameters": {
+						"x": "movingBG.X + 2272"
+					}
+				}
+			],
+			"sid": 937867416716329
 		}
 	],
 	"sid": 462337385455810
